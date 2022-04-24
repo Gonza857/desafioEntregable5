@@ -64,7 +64,12 @@
         height: 250px;
         object-fit: cover;
         object-position: center -200px;
-
+    }
+    .footer__contact-p {
+        font-size: 1rem;
+    }
+    .footer__social-a {
+        font-size: 2rem;
     }
 }
 
@@ -76,10 +81,32 @@
     .img5 {
         height: 200px;
     }
+    .footer {
+        height: 250px;
+    }
+    .footer__content {
+        height: 80%;
+    }
+    .footer__contact-p {
+        font-size: 1.5rem;
+    }
+    .footer__social {
+        align-items: center;
+    }
+    .footer__credits {
+        height: 20%;
+    }
+    .footer__credits-p {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width:1200px) {
     .img5 {
         height: 350px;
     }
+    .footer__social-a {
+        font-size: 3rem;
+    }
+    
 }
