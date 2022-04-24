@@ -26,6 +26,14 @@
 .nabvar-links {
     font-family: var(--font1);
 }
+
+
+
+/* GALERY */
+.gallery-row .column {
+    flex: 33.3%;
+}
+
 .footer__contact-p {
     font-size: .7rem;
 }
