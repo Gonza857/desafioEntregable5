@@ -49,3 +49,37 @@
     font-size: .7rem;
     text-align: center;
 }
+
+
+@media (min-width:768px) {
+    .gallery-row1 {
+        min-height: 100px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .img {
+        margin: 10px 0 !important;
+    }
+    .img3, .img4 {
+        height: 250px;
+        object-fit: cover;
+        object-position: center -200px;
+
+    }
+}
+
+@media (min-width:992px) {
+    .img3, .img4 {
+        height: unset;
+        object-position: unset;
+    }
+    .img5 {
+        height: 200px;
+    }
+}
+
+@media (min-width:1200px) {
+    .img5 {
+        height: 350px;
+    }
+}
